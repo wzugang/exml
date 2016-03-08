@@ -37,7 +37,7 @@
 		<col name="录入"/>
 		<col name="状态"/>
 	</import>
-	<export name="导出模板.xls">
+	<export name="aaa.xls">
 		<col name="序号" type="index"/>
 		<col name="单号" type="build">
 			<append type="string" value="'"/>
