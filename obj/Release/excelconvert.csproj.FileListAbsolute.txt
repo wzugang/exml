@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\excelconvert\excelconvert\bin\Release\excelconvert.exe
+C:\Users\Administrator\Desktop\excelconvert\excelconvert\bin\Release\excelconvert.pdb
+C:\Users\Administrator\Desktop\excelconvert\excelconvert\obj\Release\excelconvert.MainForm.resources
+C:\Users\Administrator\Desktop\excelconvert\excelconvert\obj\Release\excelconvert.Properties.Resources.resources
+C:\Users\Administrator\Desktop\excelconvert\excelconvert\obj\Release\excelconvert.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\excelconvert\excelconvert\obj\Release\excelconvert.exe
+C:\Users\Administrator\Desktop\excelconvert\excelconvert\obj\Release\excelconvert.pdb
+C:\Users\Administrator\Desktop\excelconvert\excelconvert\obj\Release\excelconvert.csprojResolveAssemblyReference.cache
+G:\实战小程序-作品\excelconvert\excelconvert\excelconvert\bin\Release\excelconvert.exe
+G:\实战小程序-作品\excelconvert\excelconvert\excelconvert\bin\Release\excelconvert.pdb
+G:\实战小程序-作品\excelconvert\excelconvert\excelconvert\obj\Release\excelconvert.MainForm.resources
+G:\实战小程序-作品\excelconvert\excelconvert\excelconvert\obj\Release\excelconvert.Properties.Resources.resources
+G:\实战小程序-作品\excelconvert\excelconvert\excelconvert\obj\Release\excelconvert.csproj.GenerateResource.Cache
+G:\实战小程序-作品\excelconvert\excelconvert\excelconvert\obj\Release\excelconvert.exe
+G:\实战小程序-作品\excelconvert\excelconvert\excelconvert\obj\Release\excelconvert.pdb

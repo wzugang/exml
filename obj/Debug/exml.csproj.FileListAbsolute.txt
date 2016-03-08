@@ -1,0 +1,2 @@
+G:\实战小程序-作品\excelconvert\excelconvert\exml\obj\Debug\excelconvert.exe
+G:\实战小程序-作品\excelconvert\excelconvert\exml\obj\Debug\excelconvert.pdb

@@ -1,0 +1,8 @@
+C:\Users\Administrator\Desktop\excelconvert\excelconvert\bin\Debug\excelconvert.exe
+C:\Users\Administrator\Desktop\excelconvert\excelconvert\bin\Debug\excelconvert.pdb
+C:\Users\Administrator\Desktop\excelconvert\excelconvert\obj\Debug\excelconvert.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\excelconvert\excelconvert\obj\Debug\excelconvert.MainForm.resources
+C:\Users\Administrator\Desktop\excelconvert\excelconvert\obj\Debug\excelconvert.Properties.Resources.resources
+C:\Users\Administrator\Desktop\excelconvert\excelconvert\obj\Debug\excelconvert.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\excelconvert\excelconvert\obj\Debug\excelconvert.exe
+C:\Users\Administrator\Desktop\excelconvert\excelconvert\obj\Debug\excelconvert.pdb

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="gb2312"?>
+<excel>
+	<import name="导入模板.xls" >
+		<col name="业务日期"/>
+		<col name="客户名称"/>
+		<col name="内部单号"/>
+		<col name="转单号码"/>
+		<col name="重量"/>
+		<col name="目的地"/>
+		<col name="收件人"/>
+		<col name="收件单位"/>
+		<col name="收件地址"/>
+		<col name="收件电话"/>
+		<col name="收件邮编"/>
+		<col name="物品描述"/>
+		<col name="物品别名"/>
+		<col name="物品甲码"/>
+		<col name="物品数量"/>
+		<col name="物品乙码"/>
+		<col name="物品税率"/>
+		<col name="托运备注"/>
+		<col name="收名址ID"/>
+		<col name="内控"/>
+		<col name="批次"/>
+		<col name="发件人"/>
+		<col name="发件电话"/>
+		<col name="发件地址"/>
+		<col name="物品丙码"/>
+		<col name="发件省州"/>
+		<col name="发件城市"/>
+		<col name="快递类别"/>
+		<col name="出发地"/>
+		<col name="备用一"/>
+		<col name="所属站点"/>
+		<col name="参考号"/>
+		<col name="备用五"/>
+		<col name="录入"/>
+		<col name="状态"/>
+	</import>
+	<export name="导出模板.xls">
+		<col name="序号" type="index"/>
+		<col name="单号" type="build">
+			<append type="string" value="'"/>
+			<append type="string" table="导入模板.xls" field="转单号码"/>
+		</col>
+		<col name="发件人地址" type="build">
+			<append type="string" value="327 Chisholm Rd.,Auburn NSW 2144 Australia"/>
+		</col>
+		<col name="发件人" type="build">
+			<append type="string" value="bus international 澳洲"/>
+		</col>
+		<col name="发件人电话" type="build">
+			<append type="string" value="'"/>
+			<append type="string" table="导入模板.xls" field="发件电话"/>
+		</col>
+		<col name="收件人姓名" type="build">
+			<append type="string" table="导入模板.xls" field="收件人"/>
+		</col>
+		<col name="收件人身份证号码" type="build">
+			<append type="string" value="'"/>
+			<append type="string" table="导入模板.xls" field="收件单位"/>
+		</col>
+		<col name="国籍" type="build">
+			<append type="string" value="澳洲"/>
+		</col>	
+		<col name="地址" type="build">
+			<append type="string" table="导入模板.xls" field="目的地"/>
+			<append type="string" table="导入模板.xls" field="收件地址"/>
+		</col>
+		<col name="收件人邮编" type="build">
+			<append type="string" table="导入模板.xls" field="收件邮编"/>
+		</col>
+		<col name="联系电话" type="build">
+			<append type="string" table="导入模板.xls" field="收件电话"/>
+		</col>	
+		<col name="货物名称" type="build">
+			<append type="array" table="导入模板.xls" field="物品描述" split=","/>
+			<append type="string" value="/" />
+			<append type="array" table="导入模板.xls" field="物品乙码" split=","/>
+			<append type="string" value="," />
+			<append type="array" table="导入模板.xls" field="托运备注" split=","/>
+			<append type="string" value="*" />
+			<append type="array" table="导入模板.xls" field="物品甲码" split=","/>
+			<append type="string" value=";" ifend="0"/>
+		</col>
+		<col name="税号" type="empty"/>
+		<col name="重量" type="build">
+			<append type="string" table="导入模板.xls" field="重量"/>
+		</col>
+	</export>
+</excel>
+
+

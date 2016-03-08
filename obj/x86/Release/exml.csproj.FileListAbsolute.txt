@@ -1,0 +1,7 @@
+G:\实战小程序-作品\excelconvert\excelconvert\exml\bin\x86\Release\exml.exe
+G:\实战小程序-作品\excelconvert\excelconvert\exml\bin\x86\Release\exml.pdb
+G:\实战小程序-作品\excelconvert\excelconvert\exml\obj\x86\Release\excelconvert.MainForm.resources
+G:\实战小程序-作品\excelconvert\excelconvert\exml\obj\x86\Release\exml.Properties.Resources.resources
+G:\实战小程序-作品\excelconvert\excelconvert\exml\obj\x86\Release\exml.csproj.GenerateResource.Cache
+G:\实战小程序-作品\excelconvert\excelconvert\exml\obj\x86\Release\exml.exe
+G:\实战小程序-作品\excelconvert\excelconvert\exml\obj\x86\Release\exml.pdb

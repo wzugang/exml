@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="gb2312"?>
+<excel>
+	<!--表格每一列自定义，表格中数据分隔符自定义，表格数据转换方法自定义-->
+	<import name="导入模板1.xls" >
+		<col name="导入表1字段1"/>
+		<col name="导入表1字段2"/>
+		<col name="导入表1字段3"/>
+		<col name="导入表1字段4"/>
+	</import>
+	<import name="导入模板2.xls" >
+		<col name="导入表2字段1"/>
+		<col name="导入表2字段2"/>
+		<col name="导入表2字段3"/>
+		<col name="导入表2字段4"/>
+	</import>
+	<export name="导出模板1.xls">
+		<col name="导出表1字段1" type="build">	
+			<!--每个array的成员个数必须一致，不一致转换失败-->
+			<!--table、field与value必须包含一个，其中value为自定义数据-->
+			<append type="array" table="导入模板1.xls" field="导入表1字段1" split=","/>
+			<append type="array" table="导入模板2.xls" field="导入表2字段2" split=";"/>
+			<append type="string" table="导入模板1.xls" field="导入表1字段3"/>	
+			<append type="array" value="1,2,3" split=","/>
+			<append type="string" value=";" ifend="0"/>
+		</col>
+		<col name="导出表1字段2" type="empty"/>
+		<col name="导出表1字段3" type="index"/>
+	</export>
+	<export name="导出模板2.xls">
+		<col name="导出表2字段1" type="build">		
+			<append type="array" table="导入模板1.xls" field="导入表1字段1" split=","/>
+			<append type="array" table="导入模板2.xls" field="导入表2字段2" split=";"/>
+			<append type="string" table="导入模板1.xls" field="导入表1字段3"/>
+			
+			<append type="array" value="1,2,3" split=","/>
+			<append type="string" value=";" ifend="0"/>
+		</col>
+		<col name="导出表2字段2" type="empty"/>
+		<col name="导出表2字段3" type="index"/>
+	</export>
+</excel>
+
+
+
